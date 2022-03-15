@@ -16,4 +16,4 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::918652224078:role/github-actions-role-Role-51WOBYQFKQH0
           aws-region: us-east-1
-      - run: aws s3api create-bucket --bucket test-bucket-vince-sandbox-220315 --region us-east-1
+      - run: aws s3api create-bucket --bucket test-bucket-vince-sandbox-220315-1 --region us-east-1
